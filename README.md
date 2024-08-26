@@ -21,4 +21,10 @@ To evaluate the performance of the logistic regression model, the *`confusion_ma
 
 
 
+## Results
 
+Among the 18,746 instances actually labeled as *`“healthy loans”`*, 18,679 were correctly predicted, while 67 were incorrectly predicted and misclassified as high-risk when they were actually *`“healthy loans”`*. This means that *`99.6%`* of the actual healthy loans were accurately predicted, with only *`0.4%`* incorrectly predicted and misclassified as *`"high-risk loans"`*.
+
+On the other hand, of the 638 instances actually labeled as *`“high-risk loans”`*, 558 were correctly predicted, while 80 were incorrectly predicted and misclassified as healthy when they were actually *`“high-risk loans”`*. This translates to an *`87.5%`* accuracy rate for predicting high-risk loans, with *`12.5%`* of these predictions being incorrect and misclassified.
+
+The classification report shows that the model performs exceptionally well in predicting "Healthy Loans," achieving perfect scores with a precision, recall, and F1-score of 1.00. For "High-Risk Loans," the model has a precision of 0.87, meaning 87% of the loans predicted as high-risk are actually high-risk. It has a recall of 0.89, indicating it correctly identifies 89% of all actual high-risk loans. The F1-score, which balances precision and recall, is 0.88 for high-risk loans, showing good but not perfect performance. Overall, the model has an accuracy of 99%, meaning it correctly classifies 99% of all 19,384 loans. The macro average, which averages the precision, recall, and F1-score across both loan types equally, is 0.94 for each metric. The weighted average, which takes into account the larger number of healthy loans, is 0.99 for precision, recall, and F1-score. While the model is highly accurate overall, its performance on identifying high-risk loans could be further improved, as this is where most of the errors occur.
