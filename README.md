@@ -34,5 +34,37 @@ The evaluated machine learning model exhibits outstanding performance in predict
 
 If the main goal is to identify *`"high-risk borrowers"`*, the model's current performance is good but not perfect and it needs improvement in this area, even though it performs well overall. The most critical issue is the misclassification of high-risk loans as healthy, which could lead to potential financial risks. Improving the model’s recall and precision for high-risk loans should be prioritized to reduce the number of false negatives (high-risk loans incorrectly classified as healthy).
 <br> To better identify *`"high-risk borrowers"`*, it would be helpful and recommended to improve the model or try different methods to reduce the number of high-risk loans that are misclassified. Adjusting the classification threshold, using a different model, or applying cost-sensitive learning could increase the accuracy of high-risk loan predictions. 
-
 In summary, while the model performs well, its ability to correctly identify high-risk borrowers is the most important metric in this context. Enhancements should be made to reduce errors in predicting high-risk loans to ensure more reliable decision-making.
+
+## Summary Bullet Points 
+
+- Outstanding Performance in "Healthy Loans" Prediction:
+
+    - Precision, Recall, and F1-Score: 1.00 (Perfect Scores)
+    - Correct Classification Rate: 99.6% for actual healthy loans
+
+- Adequate but Not Flawless in "High-Risk Loans" Identification:
+
+    - Precision: 0.87
+    - Recall: 0.89
+    - F1-Score: 0.88
+    - Misclassification Rate: 12.5% of high-risk loans misclassified as healthy
+
+- Overall Model Accuracy:
+
+    - Accuracy: 99%
+    - Macro and Weighted Averages: Reflect the dominance of "Healthy Loans" in the dataset
+
+- Critical Concern:
+
+    - High-Risk Loans Misclassification: Significant concern due to potential financial risks
+    - Main Objective: Accurate identification of high-risk borrowers
+- Model Improvement Recommendations:
+
+    - Enhance Recall and Precision for High-Risk Loans to reduce false negatives
+    - Consider Adjusting the Classification Threshold, Using a Different Model, or Applying Cost-Sensitive Learning
+
+- Summary:
+
+    - Model performs well overall, but improving high-risk loan identification is critical for reliable decision-making.
+
